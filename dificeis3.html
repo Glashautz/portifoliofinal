@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>3trimestre</title>
+    <link rel="stylesheet" href="css/faceis2.css">
+</head>
+
+<body>
+    <div id="menu">
+        <nav class="navbar navbar-expand-xl ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/ifere.png" height="100px" width="100px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav me-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="3tri.html">Voltar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#modu">Modular</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#eqMod">Equação Modular</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#graf">Gráficos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#funMod">Função Modular</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="autoavaliacao.html">Autoavaliação</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="opiniao.html">Avalie-nos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="referencias.html">Referencias</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <h1>PA e PG</h1>
+    <p>ambas são sequencias formadas por um termo incial e uma razão podendo ser finitas ou infinitas. Podendo ser de
+        numeros naturais, inteiros racionais etc.</p>
+    <h2 id="PA">Progressão Aritimetica</h2>
+    <p>PA são sequencias onde a razão é somada ao termo, ou seja pode ser representado pela formula a<sub>n</sub>+r. Ou
+        seja></p>
+    <ul>
+        <li>a<sub>1</sub> + r = a<sub>2</sub></li>
+        <li>a<sub>2</sub> + r = a<sub>3</sub></li>
+        <li>a<sub>3</sub> + r = a<sub>4</sub></li>
+    </ul>
+    <p>Para descobrir a razao é necessario subtrair dois valores um perto do outro:</p>
+    <p>r = a<sub>n</sub> - a<sub>n-1</sub> </p>
+    <img src="img/img50.jpg" height="500px" width="500px">
+
+    <h3 id="class">Classificação</h3>
+    <ul>
+        <li>Cresecente: quando r > 0</li>
+        <li>Constante: quando r = 0</li>
+        <li>decrescente: quando r < 0 </li>
+    </ul>
+    <h3>Termo geral</h3>
+    <p>Formula utilizada para descobrir qualquer elemento dentro de uma PA</p>
+    <p>a<sub>n</sub> = a<sub>1</sub> + (n -1)r</p>
+    <h3>Interpolação aritmética</h3>
+    <p>Nas sequências finitas (𝑎1, 𝑎2, … , 𝑎𝑛) os termos 𝑎1 𝑒 𝑎𝑛 são chamados extremos e os demais são chamados
+        meios. 7 Interpolar, intercalar, inserir 𝑘 meios aritméticos entre dois números 𝒂 e 𝒃, significa obter uma PA
+        de extremos a e b com n = k + 2 termos. Para encontrar esses termos temos que encontrar a razão. </p>
+    <h3>Soma de termos PA finita</h3>
+    <p>A formula para somar todos os termos de uma PA finita é:</p>
+    <p>S<sub>n</sub> = (a<sub>1</sub> + a<sub>n</sub>)n / 2</p>
+
+    <h2 id="PG">Progressão Geométrica</h2>
+
+    <p>PG são sequencias onde a razão é multiplicada ao termo, ou seja pode ser representado pela formula a<sub>n</sub>
+        * r. Ou seja></p>
+    <ul>
+        <li>a<sub>1</sub> * r = a<sub>2</sub></li>
+        <li>a<sub>2</sub> * r = a<sub>3</sub></li>
+        <li>a<sub>3</sub> * r = a<sub>4</sub></li>
+        <p>Para descobrir a razao é necessario dividir dois valores um perto do outro:</p>
+        <p>r = a<sub>n</sub> / a<sub>n-1</sub> </p>
+        <img src="img/imgPG.jpg" height="500px" width="500px">
+        <p>PG Cresecente:</p>
+        <ul>
+            <li>PG com termos positivos: r > 1.</li>
+            <li>PG com termos negativos: 0 < r < 1. </li>
+        </ul>
+        <p>PG Constante:</p>
+        <ul>
+            <li>PG com todos os termos nulos: 𝑎1 = 0 𝑒 𝑞 𝑞𝑢𝑎𝑙𝑞𝑢𝑒𝑟.</li>
+            <li>PG com termos iguais e não nulos: 𝑎 ≠ 0 𝑒 r = 1.</li>
+        </ul>
+        <p>PG Decrescente:</p>
+        <ul>
+            <li>PG com termos positivos: 0 < r < 1</li>
+            <li>PG com termos negativos: r > 1</li>
+        </ul>
+        <ul>
+            <li>Alternantes: cada termo tem sinal contrário ao do termo anterior. Isso ocorre quando r < 0.</li>
+            <li>Estacionárias: Apenas o primeiro termo é diferente de zero: 𝑎1 ≠ 0 𝑒 r = 0.</li>
+        </ul>
+<h3>Termo geral</h3>
+<p>a<sub>n</sub> = a<sub>1</sub> ∙ r<sup>n-1</sup></p>
+
+<h3>Soma de termos de PG finita</h3>
+<p>S<sub>n</sub> = a<sub>1</sub> * 1-r<sup>n</sup> / 1-r</p>
+
+<h3>Soma dos termos de uma PG infinita, quando -1 < r < 1.</h3>
+
+
+
+        <a href=""><img src="img/setapracima.png" alt="" height="50px" id="fix"></a>
+</body>
+
+</html>

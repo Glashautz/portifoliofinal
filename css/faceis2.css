@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(255, 244, 228);
+    margin: 30px;
+    
+}
+
+.titulo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  
+}
+td{
+    border-color: black;
+    border-style: dotted;
+  height: 1px;
+  border: 1;
+
+
+}
+td:hover{
+ background-color: black;
+
+}
+.link:hover{
+ color: white;
+
+}
+#fix{
+    bottom: 0;
+    right: 0;
+    position: fixed;
+
+}
+#fix:hover::after {
+    margin-top:-8px;
+}
+#menu a{
+    color:black;
+    font-size: 20px;
+    font-family: 'PT Serif', serif; 
+    font-weight: 100;  
+    font-style: normal;
+    } 
+
+table, tr, td{
+border: 1px solid black;
+
+
+
+}

@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(to bottom, rgb(122, 117, 117), rgb(255, 231, 164));
+    height: 800px;
+    margin: 30px;
+
+
+}
+a{
+    color: white;
+}
+p, h1{
+    color:white;
+}
+h1{
+font-size: 30px;
+
+}
+*{
+font-size: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: italic;
+font-weight: bold;
+}
+#menu a{
+    color:black;
+    font-size: 20px;
+    font-family: 'PT Serif', serif; 
+    font-weight: 100;  
+    font-style: normal;
+    } 
+
+    #fix{
+        bottom: 0;
+        right: 0;
+        position: fixed;
+    
+    }
+    #fix:hover::after {
+        margin-top:-8px;
+    }

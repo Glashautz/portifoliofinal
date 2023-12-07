@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>1trimestre</title>
+    <link rel="stylesheet" href="css/faceis.css">
+</head>
+
+<body>
+<div id="menu">
+    <nav class="navbar navbar-expand-xl ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="img/ifere.png" height="100px" width="100px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav me-auto">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="1tri.html">Voltar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bin">Binários</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#octal">Sistema Octal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hex">Hexadecimal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fun">Funções</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="autoavaliacao.html">Autoavalição</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="opiniao.html">Avalie-nos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="referencias.html">Referencias</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+    <br>
+    <br>
+    <h2>Sistema de numeração:</h2>
+    <br>
+    <br>
+    <div class="titulo">
+        <table width=400 cellpadding=" 10" cellspacing="0">
+
+            <tbody id='bin'>
+                <tr>
+                    <th scope="col">Sistema decimal</th>
+                    <th scope="col">Sistema binário</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>10</td>
+
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>11</td>
+
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>100</td>
+
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>101</td>
+
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>110</td>
+
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>111</td>
+
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>1000</td>
+
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>1001</td>
+
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>1010</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <h2>Conversão base decimal para binário:</h2>
+    <h3>Para fazer isso voce deve pegar o numero na base 10 até ser indivisivel por 2</h3>
+    <p>Ex:</p>
+
+
+    <img src="img/img1.jfif" srcset="" width="320">
+
+    <img src="img/img2.jfif" alt="" srcset="" width="320">
+
+
+
+
+    <h2>Conversão de binario para decimal: </h2>
+    <h3>Para cada casa (da direita para a esquerda) sendo o mais da esquerda sendo igual a 0 e aumentando um a cada
+        casa
+        ele vale como exponte para o 2, se o valor em binario for igual a 0 não se faz a potencia, no final de tudo
+        soma
+        todas as contas.</h3>
+    <p>Ex: </p>
+    <img src="img/img3.jfif" width="320">
+
+    <br>
+    <br>
+    <br>
+    <h2>Adição e subtração de binários: </h2>
+    <div class="titulo">
+
+        <table width="173">
+            <tbody>
+                <tr class="tab">
+
+                </tr>
+                <tr class="tab">
+                    <td>0+0 =</td>
+                    <td>0</td>
+
+                </tr>
+                <tr class="tab">
+                    <td>1+0 = </td>
+                    <td>1</td>
+
+                </tr>
+                <tr class="tab">
+                    <td>1+1 = </td>
+                    <td>10</td>
+
+                </tr>
+        </table>
+    </div>
+    <br>
+
+
+    <div class="titulo">
+        <table>
+            <tbody>
+
+                <tr class="tab">
+                    <td>0-0 =</td>
+                    <td>0</td>
+
+                </tr>
+                <tr class="tab">
+                    <td>1-0 = </td>
+                    <td>1</td>
+
+                </tr>
+                <tr class="tab">
+                    <td>1-1 = </td>
+                    <td>0</td>
+
+                </tr>
+                <tr class="tab">
+                    <td>0-1 = </td>
+                    <td>pedir emprestado</td>
+
+                </tr>
+
+
+
+
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <img src="img/img4.jfif" width="320">
+    <br> <br>
+    <div class="titulo">
+        <table width="400" cellpadding=" 10" cellspacing="0">
+
+            <tbody>
+                <tr>
+                    <th scope="col">Sistema decimal</th>
+                    <th scope="col" id='octal'>Sistema octal</a></th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2</td>
+
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>3</td>
+
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>4</td>
+
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>5</td>
+
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>6</td>
+
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>7</td>
+
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>10</td>
+
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>11</td>
+
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>12</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <h2>Conversão decimal para octal: </h2>
+    <h3>Para converter de decimal para octal é o mesmo porcesso de decimal para binário, é divisão sucessiva, agora
+        é
+        necessario dividir por 8</h3>
+
+    <img src="img/img5.jfif" srcset="" width="320">
+
+    <img src="img/img6.jfif" alt="" srcset="" width="320">
+
+    <br>
+    <br>
+    <br>
+    <h3>Para converter de octal para decimal é o mesmo processo de conversão de binário para decimal, é necessario
+        fazer
+        o numero vezes 8 com expoente</h3>
+    <p>Ex: </p>
+    <img src="img/img8.jfif" width="320">
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Para converter da base 2 para base 8 é necessario agrupar de 3 em 3</h3>
+    <p>Ex:</p>
+
+    <img src="img/img9.jfif" srcset="" width="320">
+
+    <img src="img/img10.jfif" alt="" srcset="" width="320">
+
+    <br>
+    <br>
+    <br>
+    <h3>Para converter da base 8 para base 2 é necessario separar cada algarisma e cada um equivale a 3 algarismos
+        em
+        binário</h3>
+    <p>Ex:</p>
+    <img src="img/img11.jfif" width="320">
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="titulo">
+        <table width="400" cellpadding=" 10" cellspacing="0">
+
+            <tbody>
+                <tr>
+                    <th scope="col">Sistema decimal</th>
+                    <th scope="col" id="hex">Sistema hexadecimal</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2</td>
+
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>3</td>
+
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>4</td>
+
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>5</td>
+
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>6</td>
+
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>7</td>
+
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>8</td>
+
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>9</td>
+
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>A</td>
+
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>B</td>
+
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>C</td>
+
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>D</td>
+
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>E</td>
+
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>F</td>
+
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <h3>Conversão da base 10 para 16</h3>
+    <p>É necessario fazer a divisão sucessiva</p>
+    <img src="img/img12.jfif" width="320">
+    <br>
+    <br>
+    <br>
+    <h3>Conversão 16 para 10</h3>
+    <p>Para converter de octal para decimal é o mesmo processo de conversão de binário para decimal, é necessario
+        fazer
+        o numero vezes 16 com expoente</p>
+    <img src="img/img13.jfif" width="320">
+    <br>
+    <br>
+    <br>
+    <h3>Base 2 para 16</h3>
+    <p>Agrupa de 4 em 4 e transforma em algarismo hexadecimal</p>
+    <img src="img/img14.jfif" width="320">
+    <br>
+    <br>
+    <br>
+    <h3>Conversão 16 para 2</h3>
+    <p>É necessario fazer divisão sucessiva</p>
+    <img src="img/img15.jfif" width="320">
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 id="fun">Função</h2>
+    <h4>Uma função é uma relação matemática estabelecida entre duas variáveis. No caso nós vimeos 2 tipops de
+        variaveis
+        a variavel dependete( y ) e a variavel idependete( x ).</h4>
+    <p>"A ideia de função surgiu de observações de fatos que ocorrem na
+        natureza. A partir dessas observações é que surgiram os enunciados de leis
+        que estabeleceram relações entre causas e efeitos. Em muitas situações
+        práticas, o valor de uma grandeza depende do valor de uma outra grandeza.
+        Existe, portanto, uma relação de dependência entre essas grandezas"</p>
+
+    <h4>Dominio e Imagem</h4>
+    <p>"De uma forma bastante simplificada, podemos dizer que o domínio de
+        uma função f(x) é o conjunto de todos os valores que a variável
+        independente x pode assumir. É o conjunto de entrada.
+        A imagem, por sua vez, é o conjunto de saída. Ou seja, o conjunto dos
+        correspondentes de x pela função dada."
+    </p>
+    <img src="img/21.jpg" width="320">
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="voltar">
+        <a href="#"><img src="img/setapracima.png" alt="" height="50px" id="fix"></a>
+
+        <a href="index.html">Voltar para o inicio</a>
+    </div>
+</body>
+
+</html>

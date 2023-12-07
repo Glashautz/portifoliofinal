@@ -1,0 +1,21 @@
+body{
+
+        background-image: linear-gradient(to top, white, rgb(255, 231, 164));
+    height: 100%;    
+    background-size:cover;
+        background-repeat: no-repeat;
+        margin: 30px;
+    
+
+}
+h1{
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery .image {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }

@@ -1,0 +1,61 @@
+body {
+    background-color: rgba(247, 193, 112, 0.459);
+    margin: 30px;
+
+}
+
+img {
+justify-content: center;
+
+}
+.titulo{
+    -webkit-display: flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+
+}
+.tab{
+    border-color: black;
+    border-style: dotted;
+  height: 1px;
+  border: 1;
+
+}
+.tab1:hover{
+ background-color: black;
+
+}
+.link:hover{
+    color: white;
+}
+*{
+    text-align: center;
+}
+.voltar{
+    text-align: left;
+}
+tr, td, th{
+border: 1px solid black;
+
+}
+#fix{
+    bottom: 0;
+    right: 0;
+    position: fixed;
+
+}
+#fix:hover::after {
+    margin-top:-8px;
+}
+#menu a{
+    color:black;
+    font-size: 20px;
+    font-family: 'PT Serif', serif; 
+    font-weight: 100;  
+    font-style: normal;
+    } 
+
+

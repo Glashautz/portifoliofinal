@@ -1,0 +1,38 @@
+body{
+background-image: linear-gradient(to bottom, rgb(112, 202, 250), rgb(255, 255, 255));
+height: 100%;
+background-size: cover;
+background-position: center;
+margin: 30px;
+}
+*{
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+}
+.txt{
+text-align: center;
+color: rgb(0, 0, 0);
+}
+.tri{
+text-align: left;
+}
+a{
+color: aliceblue;
+
+}
+#menu a{
+    color:black;
+    font-size: 20px;
+    font-family: 'PT Serif', serif; 
+    font-weight: 100;  
+    font-style: normal;
+    } 
+    #fix{
+        bottom: 0;
+        right: 0;
+        position: fixed;
+    
+    }
+    #fix:hover::after {
+        margin-top:-8px;
+    }
